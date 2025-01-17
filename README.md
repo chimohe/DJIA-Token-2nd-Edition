@@ -158,6 +158,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 Contact
 
-For support or inquiries, email support@djia-token.com or visit the GitHub Repository.
+For support or inquiries, email chimohe@gmail.com
 
 Let me know if there’s anything else you’d like to adjust!
