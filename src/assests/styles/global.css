@@ -1,0 +1,103 @@
+/* src/assets/styles/global.css */
+
+/* Reset styles to ensure consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root variables for consistent theming */
+:root {
+  --primary-color: #1a73e8; /* Blue for branding */
+  --secondary-color: #2d3436; /* Neutral dark for text */
+  --background-color: #f9f9f9; /* Light background */
+  --accent-color: #ffc107; /* Accent yellow */
+  --font-family: 'Inter', sans-serif;
+  --font-size-base: 16px;
+}
+
+/* Global body styles */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+}
