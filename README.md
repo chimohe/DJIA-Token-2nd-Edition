@@ -1,6 +1,6 @@
 DJIA Token – README
 
-Welcome to the DJIA Token project! This platform tokenizes the Dow Jones Industrial Average (DJIA), enabling decentralized investment, real-time tracking, and dividend distribution through blockchain technology. Built with Solidity, React, Hardhat, and Chainlink, it bridges traditional finance with Web3 innovation.
+Welcome to the DJIA Token project Second Edition! This platform tokenizes the Dow Jones Industrial Average (DJIA), enabling decentralized investment, real-time tracking, and dividend distribution through blockchain technology. Built with Solidity, React, Hardhat, and Chainlink, it bridges traditional finance with Web3 innovation.
 
 Table of Contents
 	1.	Overview
