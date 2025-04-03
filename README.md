@@ -60,8 +60,7 @@ Installation
 Follow these steps to set up the project:
 	1.	Clone the Repository:
 
-git clone https://github.com/your-repo/djia-token.git
-cd djia-token
+git clone https://github.com/chimohe/DJIA-Token-2nd-Edition.git
 
 
 	2.	Install Dependencies:
